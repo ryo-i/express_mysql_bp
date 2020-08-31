@@ -1,0 +1,2 @@
+# express_mysql_bp
+Expressを使ってMySQLとbody-parserを連携する
