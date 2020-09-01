@@ -5,7 +5,7 @@ const url = '/fetch';
 
 const postFetch = () => {
     const formData = {
-        name: postIkku.value
+        ikku: postIkku.value
     };
 
     fetch(url, {

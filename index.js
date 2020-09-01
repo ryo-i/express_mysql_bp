@@ -9,9 +9,9 @@ const jsonParser = bodyParser.json();
  
 app.post('/fetch', jsonParser,  (req, res) => {
     console.log(req.body);
-    const name = req.body.name;
-    console.log('name->' + name);
-    res.send('今日の一句：' + name);
+    const ikku = req.body.ikku;
+    console.log('ikku->' + ikku);
+    res.send('今日の一句：' + ikku);
 });
 
 app.listen(3000, () => {
